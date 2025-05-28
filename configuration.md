@@ -60,4 +60,4 @@ In this method there are some disadvantages they are:
 3. Resource waste -> human
 4. Increasing the Traffic on roads.
 
-![pull based configuration](pull-based-configuration.png)
+![pull based configuration](pull-based-configuration.svg)
