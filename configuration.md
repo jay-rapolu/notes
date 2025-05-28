@@ -47,6 +47,10 @@ In this design we should continuously monitor the configuration server.
 
 **Agent**: Tool installed in node servers to connect with configuration server.
 
+<p align="center">
+  <img src="./pull-based-configuration.svg">
+</p>
+
 let us take a daily life example
 
 you are in india and there is letter for you from us through fedex
