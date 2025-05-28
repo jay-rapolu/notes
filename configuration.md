@@ -35,6 +35,7 @@ Tool used to provision and configure the server is called as configuration manag
 **Before understanding configuration management tool we need to understand two concepts of system design they are:**
 
 ***1.Pull or Poll Design***
+
 ***2.Push Design***
 
 ### 1.Push or Poll Design:
@@ -64,4 +65,23 @@ In this method there are some disadvantages they are:
 3. Resource waste -> human
 4. Increasing the Traffic on roads.
 
-![pull based configuration](pull-based-configuration.svg)
+## 02.Push based design
+
+In this design we will run the configurations based on trigger or event. there will be no agent installed in nodes. configuration server will connect to node using ssh protocol.
+
+**Configuration server:** a server in which configuration tool is installed and all the configurations are stored in this server.
+
+**Node:** Servers which are connected to configuration server and configured using the conifguration tool.
+
+<p align="center">
+![Push based configuration](push-based-configuration.svg)
+</p>
+
+if we take the same example as previous now fedex will inform you if you recieve a package or it will deliver it to you.
+
+so with this we resolved some disadvantages like:
+
+1. Time waste
+2. money waste
+3. Resource waste
+4. Increasing traffic
