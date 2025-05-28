@@ -74,7 +74,7 @@ In this design we will run the configurations based on trigger or event. there w
 **Node:** Servers which are connected to configuration server and configured using the conifguration tool.
 
 <p align="center">
-![Push based configuration](push-based-configuration.svg)
+    <img src="push-based-configuration.svg"/>
 </p>
 
 if we take the same example as previous now fedex will inform you if you recieve a package or it will deliver it to you.
