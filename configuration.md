@@ -20,3 +20,10 @@ In this step we will create a system user for application, and a dedicated worki
 
 In this step we will download the source code of the application and copy that into the directory which we have created in previous step.
 
+### Step 05. Installing the dependencies
+
+In this step we will install the dependencies for application
+
+### Step 06. Running the application as a service
+
+In this step we will create a service for application and then enable the service and start the service.
